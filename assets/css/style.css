@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@font-face {
+    src: url(../fonts/CleverCouplePersonalUse-0n7R.ttf);
+    font-family: clevercouple;
+}
 
 
 /*------------------Background picture and images------------------------*/
@@ -27,6 +31,26 @@ html, body {
     padding-bottom: 110px;
 }
 
+h1 {
+    font-family: clevercouple;
+    position: absolute;
+    width: inherit;
+    height: 100px;
+    text-align: center;
+    top: 125px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(-90deg, rgba(245,119,3,1) 14%, rgba(219,222,80,1) 58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    filter: drop-shadow(5px 13px 15px #0F6536);
+    
+}
 
 /*------------------Footer------------------------*/
 
