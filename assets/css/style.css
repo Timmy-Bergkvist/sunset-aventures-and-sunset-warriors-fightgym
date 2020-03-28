@@ -12,3 +12,29 @@ html, body {
     background-attachment: fixed;
     height: 100%;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 110px;
+}
+
+
+/*------------------Footer------------------------*/
+
+#footer {
+    background: rgba(0, 0, 0, 0.493);
+    position: relative;
+    height: fit-content;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;   
+}
