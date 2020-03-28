@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+/*------------------Background picture and images------------------------*/
+
+html, body {
+    background-image: url(../images/background-picture_upscaled_image_x4.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
