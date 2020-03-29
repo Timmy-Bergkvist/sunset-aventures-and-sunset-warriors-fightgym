@@ -30,10 +30,10 @@ html, body {
     overflow: auto;
     padding-bottom: 110px;
 }
-
-h1 {
+/*-------------------------------Section------------------------------*/
+.page-head-name {
     font-family: clevercouple;
-    position: absolute;
+    position: inherit;
     width: inherit;
     height: 100px;
     text-align: center;
@@ -51,6 +51,42 @@ h1 {
     filter: drop-shadow(5px 13px 15px #0F6536);
     
 }
+
+.container-frame {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-container-frame {
+    background: rgba(0, 0, 0, 0.541);
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.left-container-frame {
+    background: rgba(0, 0, 0, 0.541);
+    height: fit-content;
+}
+
+.menu{
+    list-style-type: none;
+    font-family: sans-serif;
+    position: relative;
+    width: inherit;
+    text-align: center;
+    color: rgb(245, 241, 241);
+}
+
+.page-info {
+    font-family: sans-serif;
+    position: relative;
+    width: inherit;
+    text-align: center;
+    color: rgb(245, 241, 241);
+}
+
 
 /*------------------Footer------------------------*/
 
