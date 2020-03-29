@@ -28,12 +28,13 @@ html, body {
 
 #main {
     overflow: auto;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
 }
 /*-------------------------------Section------------------------------*/
 .page-head-name {
+    padding-top: 25px;
     font-family: clevercouple;
-    position: inherit;
+    /* position: inherit; */
     width: inherit;
     height: 100px;
     text-align: center;
@@ -42,7 +43,7 @@ html, body {
     font-weight: normal;
     font-size: 64px;
     line-height: 74px;
-    
+
     letter-spacing: 3px;
     background: -webkit-linear-gradient(-90deg, rgba(245,119,3,1) 14%, rgba(219,222,80,1) 58%);
     -webkit-background-clip: text;
@@ -62,6 +63,7 @@ html, body {
 .right-container-frame {
     background: rgba(0, 0, 0, 0.541);
     height: fit-content;
+    max-width: 74%!important;
     margin-left: 10px;
 }
 
@@ -87,6 +89,17 @@ html, body {
     color: rgb(245, 241, 241);
 }
 
+.page-info p {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.picture-test {
+    padding-top: 25px;
+    max-width: 100%;
+}
 
 /*------------------Footer------------------------*/
 
