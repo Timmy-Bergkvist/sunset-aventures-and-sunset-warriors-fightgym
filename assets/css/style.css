@@ -31,6 +31,35 @@ html, body {
     padding-bottom: 100px;
 }
 /*-------------------------------Section------------------------------*/
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #8f8f8f;
+}
+
+.text-gray {
+    color: #a1a1a1;
+}
+
+.text-lite-gray {
+    color: #cccccc;
+}
+
+.text-orange {
+    color: rgba(245,119,3,1);
+}
+
+
+.index-background {
+    background: rgba(0, 0, 0, 0.541);
+}
+
+.logo {
+    margin: auto;
+}
+
 .page-head-name {
     padding-top: 25px;
     font-family: clevercouple;
@@ -118,6 +147,24 @@ html, body {
     color: transparent;
 }
 
+/*------------------Map------------------------*/
+
+.map-container {
+    min-width: 200px;
+  width: 83%;
+  min-height: 200px;
+  height: 80%;
+  border-radius: 13px;
+  margin: auto;
+}
+
+/*
+#map {
+    min-height: 200px;
+}
+*/
+
+
 /*------------------Footer------------------------*/
 
 #footer {
@@ -128,3 +175,13 @@ html, body {
     text-align: center;
     padding-top: 20px;   
 }
+
+.footer-container {
+    background: rgba(237, 237, 237, 0.767);
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .social-links:hover {
+    color: rgba(245,119,3,1);
+  }
