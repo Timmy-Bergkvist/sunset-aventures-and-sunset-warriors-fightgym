@@ -17,7 +17,8 @@ header {
 
 
 .parallax {
-    background-image: url(../images/photo_2020-03-23_13-21-30.jpg);
+    /*background-image: url(../images/i2.jpg);*/
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/i2.jpg);
     /* Set a specific height */
     height: 50rem;
 
@@ -51,6 +52,12 @@ html, body {
     padding-bottom: 100px;
 }
 /*-------------------------------Section------------------------------*/
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
 
 hr {
     margin-top: 1rem;
@@ -186,7 +193,7 @@ hr {
 /*------------------Footer------------------------*/
 
 #footer {
-    background: rgba(0, 0, 0, 0.493);
+    background: #F5F5F5;
     position: relative;
     height: fit-content;
     clear: both;

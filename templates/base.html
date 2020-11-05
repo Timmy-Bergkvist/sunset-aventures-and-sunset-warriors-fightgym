@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap" rel="stylesheet">
 
     <!-- Css -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css" />
 
     <title>Sunset Warriors Fightgym</title>
 </head>
@@ -20,35 +20,43 @@
     <div class="parallax">
     <header>        
         <nav class="navbar navbar-light">
-            <a class="navbar-brand" href="#">
-              <img class="header-logo" src="./assets/images/sunset-wariors-logo.png" width="210" height="210" alt="">
-            </a>
+            <a class="navbar-brand" href="{{url_for('index')}}"><img class="header-logo" src="../static/images/sunset-wariors-logo.png" width="210" height="210" alt=""></a>
+            <ul class="">
+                <li><a class="nav-link" href="{{url_for('index')}}">Home <span class="sr-only">(current)</span></a></li>
+                <li><a class="nav-link" href="{{url_for('training')}}">Training</a></li>
+                <li><a class="nav-link" href="{{url_for('about')}}">About</a></li>
+                <li><a class="nav-link" href="{{url_for('gallery')}}">Gallery</a></li>
+                <li><a class="nav-link" href="{{url_for('contact')}}">Contact</a></li>
+            </ul>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{url_for('index')}}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Training</a>
+                    <a class="nav-link" href="{{url_for('training')}}">Training</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{{url_for('about')}}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="{{url_for('gallery')}}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="{{url_for('contact')}}">Contact</a>
                 </li>
                 </ul>
             </div>
-          </nav>
-        
+        </nav>
     </header>
     
+    {% block content %}
+    {% endblock %}
+
+    <!----
     <div id="container">
         <div id="main">
             <div class="row no-gutters">
@@ -75,7 +83,7 @@
             </div>
         </div>
     </div>
-
+    --->
     <!-- <div class="parallax"></div> -->
 
     <footer id="footer" class="footer-container font-small pt-4">
@@ -83,7 +91,7 @@
             <div class="row text-center text-md-center mt-3 pb-3">
                 <div class="col-md-3 col-lg-3 ml-lg-0">
                     <div class="text-center">
-                        <img src="./assets/images/sunset-wariors-logo.png" width="200" height="200" alt="">
+                        <img src="../static/images/sunset-wariors-logo.png" width="200" height="200" alt="">
                         <ul class="list-unstyled list-inline social-links-ul">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com/" class="btn-floating btn-lg  mx-1 social-links text-lite-gray" target="_blank">
@@ -144,7 +152,7 @@
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDds1UHHflQU2Ad2rc3rmIP3DVvZBAKOe0&callback=initMap"></script>
 
     <!-- JavaScrip maps -->
-    <script src="assets/js/maps.js"></script>
+    <script src="../static/js/maps.js"></script>
 
 </body>
 </html>
