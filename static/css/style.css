@@ -8,29 +8,13 @@
 
 /*------------------Background picture and images------------------------*/
 
-
 header {
     background: transparent !important;
     background-color: transparent !important;
 }
 
 
-
-.parallax {
-    /*background-image: url(../images/i2.jpg);*/
-    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/i2.jpg);
-    /* Set a specific height */
-    height: 50rem;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 html, body {
-    background-image: url(../images/);
     background-size: cover;
     position: relative;
     background-position: center;
@@ -51,6 +35,7 @@ html, body {
     overflow: auto;
     padding-bottom: 100px;
 }
+
 /*-------------------------------Section------------------------------*/
 
 ul {
@@ -76,10 +61,6 @@ hr {
 
 .text-orange {
     color: rgba(245,119,3,1);
-}
-
-.header-logo {
-    z-index: 2;
 }
 
 .welcome-text {
@@ -171,6 +152,56 @@ hr {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+.parallax-img-contact,
+.parallax-img-gallery,
+.parallax-img-about,
+.parallax-img-training,
+.parallax-img-home {
+    height: 50rem !important;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/*-------------------------------About------------------------------*/
+
+.parallax-img-about {
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/about-header-img.jpg);
+    /* height: 50rem; */
+}
+
+/*-------------------------------Contact------------------------------*/
+
+
+.parallax-img-contact {
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/contact-header-img.jpg);
+    /*height: 50rem;*/
+}
+
+/*-------------------------------Home/Index------------------------------*/
+
+.parallax-img-home {
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/home-header-img.jpg);
+    /* height: 50rem; */
+}
+
+/*-------------------------------Gallery------------------------------*/
+
+.parallax-img-gallery {
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/gallery-header-img.jpg);
+    /* height: 50rem; */
+}
+
+/*-------------------------------Training------------------------------*/
+
+.parallax-img-training {
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/training-header-img.jpg);
+    /* height: 50rem; */
+}
+
 
 /*------------------Map------------------------*/
 

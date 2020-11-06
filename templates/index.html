@@ -1,18 +1,22 @@
 {% extends "base.html" %}
-{% block content %}
 
-    <div id="container">
-        <div id="main">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <h1 class="welcome-text">Sunset Warriors Fightgym</h1>
-                    <h4 class="welcome-text-under">The first fight gym on a island in Cambodia</h4>
+{% block headerContent %}
+    <div class="parallax-img-home"> 
+        {% include 'navbar.html' %}
+        <div id="container">
+            <div id="main">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <h1 class="welcome-text">Sunset Warriors Fightgym</h1>
+                        <h4 class="welcome-text-under">The first fight gym on a island in Cambodia</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    
+{% endblock %}
+
+{% block content %}
     <div id="container">
         <div id="main">
             <div class="row no-gutters">

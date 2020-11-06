@@ -1,18 +1,22 @@
 {% extends "base.html" %}
-{% block content %}
 
-    <div id="container">
-        <div id="main">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <h1 class="welcome-text">Gallery</h1>
-                    <h4 class="welcome-text-under">page</h4>
+{% block headerContent %}
+    <div class="parallax-img-gallery"> 
+        {% include 'navbar.html' %}
+        <div id="container">
+            <div id="main">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <h1 class="welcome-text">Gallery</h1>
+                        <h4 class="welcome-text-under">Lorem ipsum dolor sit amet consectetur</h4>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    
+{% endblock %}
+
+{% block content %}
     <div id="container">
         <div id="main">
             <div class="row no-gutters">
@@ -27,5 +31,4 @@
             </div>
         </div>
     </div>
-
-    {% endblock %}
+{% endblock %}
