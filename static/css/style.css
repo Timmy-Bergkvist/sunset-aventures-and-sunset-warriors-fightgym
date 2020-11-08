@@ -5,6 +5,58 @@
     font-family: SeoulHangangCondensed-Bold;
 }
 
+@font-face {
+    src: url(../fonts/SeoulHangangCondensed-BoldL.ttf);
+    font-family: SeoulHangangCondensed-BoldL;
+}
+
+
+/*-------------------------------Navbar------------------------------*/
+
+
+.header-logo {
+    width: 210px;
+    height: 210px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: SeoulHangangCondensed-BoldL;
+    color: rgb(245, 245, 245);
+    padding: 8px 8px 8px 44px;
+    font-size: 150%;
+}
+
+#nav-home {
+    padding-left:  0px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(245, 245, 245)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color:rgb(245, 245, 245);
+}
+
+.navbar-list-container {
+    margin-bottom: 90px;
+    margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbar-list-container {
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+}
+
+
 
 /*------------------Background picture and images------------------------*/
 
@@ -61,6 +113,10 @@ hr {
 
 .text-orange {
     color: rgba(245,119,3,1);
+}
+
+.text-white {
+    color: #F5F5F5;
 }
 
 .welcome-text {
@@ -129,28 +185,6 @@ hr {
 .head-logo-one {
     padding-top: 25px;
     max-width: 100%;
-}
-
-.menu{
-    list-style-type: none;
-    font-family: sans-serif;
-    font-size: 30px;
-    position: relative;
-    width: inherit;
-    text-align: center;
-
-    
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px black;
-}
-.menu li {
-    margin: 30px;
-    max-width: 100%;
-
-    background: -webkit-linear-gradient(-90deg, rgba(245,119,3,1) 14%, rgba(219,222,80,1) 58%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
 }
 
 .parallax-img-contact,

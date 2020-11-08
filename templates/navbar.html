@@ -1,13 +1,13 @@
 <header>
-    <nav class="navbar navbar-expand-md navbar-light">
-        <a href="{{url_for('index')}}"><img class="header-logo" src="../static/images/sunset-wariors-logo.png" width="210" height="210" alt=""></a>
-        <button class=" d-lg-none d-xl-none navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a href="{{url_for('index')}}"><img class="header-logo" src="../static/images/sunset-wariors-logo.png" alt=""></a>
+        <button class=" d-lg-none d-xl-none navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{url_for('index')}}">Home</a>
+        <div class="collapse navbar-collapse navbar-list-container" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a id="nav-home" class="nav-link" href="{{url_for('index')}}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{url_for('training')}}">Training</a>
