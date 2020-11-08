@@ -13,6 +13,9 @@
 
 /*-------------------------------Navbar------------------------------*/
 
+.navbar {
+    padding-bottom: 0;
+}
 
 .header-logo {
     width: 210px;
@@ -119,34 +122,33 @@ hr {
     color: #F5F5F5;
 }
 
-.welcome-text {
-    padding-top: 25px;
-    font-family: SeoulHangangCondensed-Bold;
-    /* position: inherit; */
-    color: #F5F5F5;
-    width: inherit;
-    height: 100px;
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5.5rem;
+.site-heading {
     letter-spacing: 2px;
+    text-align: center;
+    color: #F5F5F5;
+    font-family: SeoulHangangCondensed-Bold;
 }
 
-.welcome-text-under {
-    padding-top: 25px;
-    font-family: SeoulHangangCondensed-Bold;
-    /* position: inherit; */
-    color: #F5F5F5;
-    width: inherit;
-    height: 100px;
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
+.site-heading h1 {
+    font-size: 5.5rem;
+}
+
+@media (max-width: 375px) {
+    .site-heading h1 {
+        font-size: 4.5rem;
+    }
+}
+
+.subheading {
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
     font-size: 2rem;
     letter-spacing: 2px;
+    text-align: center;
+    color: #F5F5F5;
+    font-family: SeoulHangangCondensed-Bold;
 }
-
 
 .container-frame {
     margin-bottom: 20px;
