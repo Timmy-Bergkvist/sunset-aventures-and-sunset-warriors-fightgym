@@ -215,8 +215,7 @@ hr {
 
 .parallax-img-about {
     background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/about-header-img.jpg);
-    /* height: 50rem; */
-    padding-bottom: 150px;
+    padding-bottom: 290px;
 }
 
 .content-container {
@@ -277,28 +276,28 @@ hr {
 
 .parallax-img-contact {
     background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/contact-header-img.jpg);
-    /*height: 50rem;*/
+    padding-bottom: 290px;
 }
 
 /*-------------------------------Home/Index------------------------------*/
 
 .parallax-img-home {
     background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/home-header-img.jpg);
-    /* height: 50rem; */
+    padding-bottom: 290px;
 }
 
 /*-------------------------------Gallery------------------------------*/
 
 .parallax-img-gallery {
     background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/gallery-header-img.jpg);
-    /* height: 50rem; */
+    padding-bottom: 290px;
 }
 
 /*-------------------------------Training------------------------------*/
 
 .parallax-img-training {
     background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/training-header-img.jpg);
-    /* height: 50rem; */
+    padding-bottom: 290px;
 }
 
 
