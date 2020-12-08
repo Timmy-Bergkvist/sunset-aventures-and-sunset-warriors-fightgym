@@ -1,14 +1,28 @@
 {% extends "base.html" %}
 
 {% block headerContent %}
-    <div class="parallax-img-home"> 
-        {% include 'navbar.html' %}
+    <div class="parallax-img-index"> 
         <div id="container">
             <div class="row no-gutters">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>Sunset Warriors Fightgym</h1>
-                        <span class="subheading">The first fight gym on a island in Cambodia</span>
+                        <h1>Welcome to sunset beach</h1>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-lg-12 col-md-12 mx-auto">
+                            <div class="row no-gutters">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
+                                    <div class="site-content">
+                                        <a href="{{url_for('sunsetWariorrs.home')}}"><img class="header-logo" src="../static/images/sunset-wariors-logo.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
+                                    <div class="site-content">
+                                        <a href="{{url_for('sunsetAdventures.home')}}"><img class="header-logo" src="../static/images/adventures-logo-img.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -17,26 +31,5 @@
 {% endblock %}
 
 {% block content %}
-<div id="parallax" class="parallax-img-home">
-    <div class="row no-gutters content-container">
-        <div class="col-lg-12 col-md-12 mx-auto">
-            <div class="row no-gutters">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto content-uper-left-container">
-                    <div class="site-content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto content-uper-right-container">
-                    <div class="site-img-div">
-                        <img class="site-img" src="../static/images/.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 {% endblock %}

@@ -198,7 +198,8 @@ hr {
 .parallax-img-gallery,
 .parallax-img-about,
 .parallax-img-training,
-.parallax-img-home {
+.parallax-img-home,
+.parallax-img-index {
     /*height: 50rem !important;*/
     /* Create the parallax scrolling effect */
     background-attachment: fixed !important;
@@ -272,6 +273,11 @@ hr {
 }
 
 /*-------------------------------Contact------------------------------*/
+
+.parallax-img-index {
+    background: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%), url(../images/index-sunsetbeach-img.jpg);
+    padding-bottom: 290px;
+}
 
 
 .parallax-img-contact {

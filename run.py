@@ -1,32 +1,16 @@
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for, request
 
+from sunsetAdventures.routes import sunsetAdventures
+from sunsetWariorrs.routes import sunsetWariorrs
 
 app = Flask(__name__)
+app.register_blueprint(sunsetAdventures, url_prefix="/sunsetAdventures")
+app.register_blueprint(sunsetWariorrs, url_prefix="/sunsetWariorrs")
 
 @app.route("/")
 def index():
     return render_template("index.html")
-
-
-@app.route("/about")
-def about():
-    return render_template("about.html")
-
-
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
-
-
-@app.route("/gallery")
-def gallery():
-    return render_template("gallery.html")
-
-
-@app.route("/training")
-def training():
-    return render_template("training.html")
 
 
 if __name__ == '__main__':
