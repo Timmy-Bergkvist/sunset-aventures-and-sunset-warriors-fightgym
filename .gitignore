@@ -1,4 +1,6 @@
 env.py
-env/
-.vscode/
-__pycache__
+*env
+.vscode
+*__pycache__
+gen
+static/.webassets-cache
