@@ -7,6 +7,11 @@ from utility.assets import bundles
 from sunsetAdventures.routes import sunsetAdventures
 from sunsetWarriors.routes import sunsetWarriors
 
+from os import path
+if path.exists("env.py"):
+    import env
+
+
 app = Flask(__name__)
 assets = Environment(app)
 assets.register(bundles)
