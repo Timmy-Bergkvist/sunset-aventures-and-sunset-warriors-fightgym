@@ -1,0 +1,164 @@
+
+$parallax-background-color: linear-gradient(180deg, rgba(15,101,54,0.6031454818255427) 35%, rgba(245,119,3,0.4995040252429097) 80%);
+
+/* Create the parallax scrolling effect */
+@mixin parallax-scrolling-effect {
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+.parallax-img-contact,
+.parallax-img-gallery,
+.parallax-img-about,
+.parallax-img-training,
+.parallax-img-adventures,
+.parallax-img-home,
+.parallax-img-index {
+    @include parallax-scrolling-effect;
+}
+
+/* Block Content */
+#parallax {
+    padding-bottom: 0px;
+
+    .content-container {
+
+        background: rgba(0, 0, 0, 0.541);
+        .site-content {
+            padding: 3rem;
+            letter-spacing: 2px;
+            text-align: center;
+            color: #F5F5F5;
+            font-family: $font-SeoulHangang-Bold;
+            @media (max-width: 376px) {
+                padding: 1.1rem;
+            }
+        
+            h2 {
+                font-family: $font-SeoulHangang-BoldL;
+                font-size: 3.5rem;
+                margin-top: 10px;
+                margin-bottom: 15px;
+                @media (max-width: 376px) {
+                    font-size: 2.5rem;
+                }
+            }
+        
+            .sub-content {
+                font-size: 1.5rem;
+            }
+        }
+    
+        .site-img-div {
+            height: 100%;
+            width: 100%;
+            padding: 3rem;
+            
+            .site-img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                filter: brightness(.90);
+                border-radius: 5px;
+                /*
+                max-width: 100%;
+                height: auto;
+                */
+            }
+        }
+    }
+}
+
+/*-------------------------------Index------------------------------*/
+
+.parallax-img-index {
+    background: $parallax-background-color, url(../images/index-sunsetbeach-img.jpg);
+    padding-bottom: 290px;
+    
+    .header-logo {
+        width: 210px;
+        height: 210px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+
+    .site-content {
+        padding: 3rem;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #F5F5F5;
+        font-family: $font-SeoulHangang-Bold;
+        @media (max-width: 376px) {
+            padding: 1.1rem;
+        }
+    }
+}
+
+/*-------------------------------About------------------------------*/
+
+.parallax-img-about {
+    /* Sunset warriors background */
+    background: $parallax-background-color, url(../images/sunset-warriors-Images/about-header-img.jpg);
+    padding-bottom: 290px;
+&.sunset-adventures {
+    /* Sunset adventures background */
+    background: $parallax-background-color, url(../images/sunset-adventures-images/sunset-home-header-img.jpg);
+    }
+}
+
+
+/*-------------------------------Contact------------------------------*/
+
+.parallax-img-contact {
+    /* Sunset warriors background */
+    background: $parallax-background-color, url(../images/sunset-warriors-Images/contact-header-img.jpg);
+    padding-bottom: 290px;
+&.sunset-adventures {
+    /* Sunset adventures background */
+    background: $parallax-background-color, url(../images/sunset-adventures-images/sunset-home-header-img.jpg);
+    }
+}
+
+/*-------------------------------Home------------------------------*/
+
+.parallax-img-home {
+    /* Sunset warriors background */
+    background: $parallax-background-color, url(../images/sunset-warriors-Images/home-header-img.jpg);
+    padding-bottom: 290px;
+ &.sunset-adventures {
+     /* Sunset adventures background */
+    background: $parallax-background-color, url(../images/sunset-adventures-images/sunset-home-header-img.jpg);
+    }
+}
+
+/*-------------------------------Gallery------------------------------*/
+
+.parallax-img-gallery {
+    /* Sunset warriors background */
+    background: $parallax-background-color, url(../images/sunset-warriors-Images/gallery-header-img.jpg);
+    padding-bottom: 290px;
+&.sunset-adventures {
+    /* Sunset adventures background */
+    background: $parallax-background-color, url(../images/sunset-adventures-images/sunset-home-header-img.jpg);
+    }
+}
+
+/*-------------------------------Training------------------------------*/
+
+.parallax-img-training {
+    /* Sunset warriors background */
+    background: $parallax-background-color, url(../images/sunset-warriors-Images/training-header-img.jpg);
+    padding-bottom: 290px;
+}
+
+
+/*-------------------------------Adventures------------------------------*/
+
+.parallax-img-adventures {
+    /* Sunset adventures background */
+    background: $parallax-background-color, url(../images/sunset-adventures-images/sunset-home-header-img.jpg);
+    padding-bottom: 290px;
+}

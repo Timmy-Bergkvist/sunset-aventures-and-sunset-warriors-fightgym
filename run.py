@@ -4,8 +4,8 @@ from flask import Flask, render_template, redirect, url_for, request
 from flask_assets import Environment, Bundle
 from utility.assets import bundles
 
-from sunsetAdventures.routes import sunsetAdventures
-from sunsetWarriors.routes import sunsetWarriors
+from templates.sunsetAdventures.routes import sunsetAdventures
+from templates.sunsetWarriors.routes import sunsetWarriors
 
 from os import path
 if path.exists("env.py"):

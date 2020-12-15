@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face {
+    src: url(../fonts/SeoulHangangCondensed-Bold.ttf);
+    font-family: 'SeoulHangangCondensed-Bold';
+}
+
+@font-face {
+    src: url(../fonts/SeoulHangangCondensed-BoldL.ttf);
+    font-family: 'SeoulHangangCondensed-BoldL';
+}
+
+$font-SeoulHangang-Bold: 'SeoulHangangCondensed-Bold';
+$font-SeoulHangang-BoldL: 'SeoulHangangCondensed-BoldL';
+
+
+html, body {
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: $font-SeoulHangang-Bold, $font-SeoulHangang-BoldL;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #8f8f8f;
+}
+
+.text-gray {
+    color: #a1a1a1;
+}
+
+.text-lite-gray {
+    color: #cccccc;
+}
+
+.text-orange {
+    color: rgba(245,119,3,1);
+}
+
+.text-white {
+    color: #F5F5F5;
+}

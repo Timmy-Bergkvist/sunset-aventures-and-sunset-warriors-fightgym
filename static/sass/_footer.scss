@@ -1,0 +1,46 @@
+
+$font-stack: Roboto Condensed, sans-serif;
+
+footer {
+    background: rgba(237, 237, 237, 0.767);
+    position: relative;
+    height: fit-content;
+    clear: both;
+    text-align: center;
+    font-family: $font-stack;
+      
+    ul {
+      margin-top: 20px;
+      margin-bottom: 0;
+      
+      a {
+        margin-top: 15px;
+        padding: .5rem 1rem;
+        font-size: 2.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+      }
+    }
+    
+    .social-links:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    .map-container {
+      min-width: 200px;
+      width: 83%;
+      min-height: 200px;
+      height: 80%;
+      border-radius: 13px;
+      margin: auto;
+    }
+
+    #copyright-container {
+      text-align: left;
+
+      @media (max-width: 800px) {
+        text-align: center
+      }
+    }
+    
+}
