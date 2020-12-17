@@ -54,7 +54,6 @@ text....
   * [Testing](#testing)
     + [Testing tools](#testing-tools)
     + [Tests](#tests)
-    + [Stripe payment testing](#stripe-payment-testing)
     + [User Stories Testing](#user-stories-testing)
     + [Bugs](#bugs)
  
@@ -65,7 +64,6 @@ text....
   * [Deployment](#deployment)
     + [Local deployment](#local-deployment)
     + [Heroku deployment](#heroku-deployment)
-    + [Amazon Web Services s3 deployment](#amazon-web-services-s3-deployment)
  
 </details>
 <details>
@@ -182,16 +180,30 @@ text....
 ## Technologies Used
 
 #### Language
+ 
+  <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img align="left" alt="HTML5" width="40px"
+ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+ </a>
+ 
+ <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"><img align="left" alt="CSS3" width="40px"
+ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+ </a>
+ 
+ <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank"><img align="left" alt="Sass" width="40px"
+ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
+ </a>
+ 
+   <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"><img align="left" alt="JavaScript"  width="40px"
+ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+ </a>
+ 
+ <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"><img align="left" alt="Python"  width="40px"
+ src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />
+ </a>
+ 
 
-- <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> Html </a>
-  
-- <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
-
-- <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank"> Sass </a>
-
-- <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"> JavaScript </a>
-
-- <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Python </a>
+<br>
+<br>
 
 
 #### Libraries and frameworks
