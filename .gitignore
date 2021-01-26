@@ -1,6 +1,13 @@
-env.py
-*env
+# Byte-compiled / optimized / DLL files
 .vscode
 *__pycache__
+
+# Environments
+env.py
+*env
+
+# Distribution / packaging
 gen
+
+# Flask stuff:
 static/.webassets-cache
