@@ -11,3 +11,6 @@ gen
 
 # Flask stuff:
 static/.webassets-cache
+
+*__init__.py
+*models

@@ -1,3 +1,5 @@
+"""Compile static assets."""
+
 from flask_assets import Bundle
 
 bundles = {
