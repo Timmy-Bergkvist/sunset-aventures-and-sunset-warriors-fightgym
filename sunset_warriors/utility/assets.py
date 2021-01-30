@@ -9,6 +9,7 @@ bundles = {
         'js/lib/popper.min.js',
         'js/lib/bootstrap.bundle.min.js',
         'js/maps.js',
+        'js/custom.js',
         filters='jsmin',
         output='gen/main.%(version)s.js'),
 
