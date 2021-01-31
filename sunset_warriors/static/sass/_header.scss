@@ -1,7 +1,3 @@
-/*@import 'body';*/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import "../sass/lib/bootstrap.min.css";
 @font-face {
     src: url(../fonts/SeoulHangangCondensed-Bold.ttf);
     font-family: 'SeoulHangangCondensed-Bold';
@@ -18,67 +14,12 @@ $font-SeoulHangang-BoldL: 'SeoulHangangCondensed-BoldL';
 header {
     background: transparent !important;
     background-color: transparent !important;
-    
-    nav {
-                
-        .navbar {
-            padding-bottom: 0;
-        }
         
-        .header-logo {
-            width: 210px;
-            height: 210px;
-            margin-top: 10px;
-            margin-left: -20px;
-        }
-        
-        #nav-home {
-            padding-left:  0px;
-        }
-
-        button {
-            .navbar-toggler-icon {
-                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(245, 245, 245)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-            }
-        }
-
-        .collapse {
-            flex-flow: row-reverse;
-        }
-        
-        .custom-toggler.navbar-toggler {
-            border-color:rgb(245, 245, 245);
-        }
-
-        .navbar-list-container {
-            margin-bottom: 90px;
-            margin-right: 30px;
-            
-            .nav-item {
-                text-align: right;
-    
-                .nav-link {
-                    font-family: $font-SeoulHangang-BoldL;
-                    color: rgb(245, 245, 245);
-                    padding: 8px 8px 8px 44px;
-                    font-size: 150%;
-                }
-            }
-        }
-  
-        @media (max-width: 768px) {
-            .navbar-list-container {
-                margin-bottom: 0px;
-                margin-right: 0px;
-            }
-        }
-    }
 }
 
 #container {
     min-height: 100%;
 }
-
 
 .site-heading {
     letter-spacing: 2px;
@@ -112,56 +53,3 @@ header {
     font-family: $font-SeoulHangang-Bold;
     padding: 2px 50px 0px 50px;
 }
-
-/*
-header {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-.navbar {
-    padding-bottom: 0;
-}
-
-.header-logo {
-    width: 210px;
-    height: 210px;
-    margin-top: 10px;
-    margin-left: -20px;
-}
-
-.nav-item {
-    text-align: right;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    font-family: SeoulHangangCondensed-BoldL;
-    color: rgb(245, 245, 245);
-    padding: 8px 8px 8px 44px;
-    font-size: 150%;
-}
-
-#nav-home {
-    padding-left:  0px;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(245, 245, 245)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-    border-color:rgb(245, 245, 245);
-}
-
-.navbar-list-container {
-    margin-bottom: 90px;
-    margin-right: 30px;
-}
-
-@media (max-width: 768px) {
-    .navbar-list-container {
-        margin-bottom: 0px;
-        margin-right: 0px;
-    }
-}
-*/
